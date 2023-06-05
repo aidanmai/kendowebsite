@@ -53,7 +53,7 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="join.html" onclick="w3_close()" class="w3-bar-item w3-button">JOIN</a>
+  <a href="join.html" onclick="w3_close()" class="w3-bar-item w3-button", style="background-color:#00629B;">JOIN</a>
   <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="gallery.html" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
   <a href="achievements.html" onclick="w3_close()" class="w3-bar-item w3-button">ACHIEVEMENTS</a>
@@ -64,8 +64,9 @@ body, html {
 
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-text-white" style="padding:48px;text-align:center;position:absolute;left:50%;top:55%;transform:translate(-50%,-50%);width:90%;">
-    <span class="w3-jumbo w3-wide" style="line-height:90px;"><u>Join Kendo Club</u></span><br>
+  <div class="w3-display-left w3-text-white" style="padding:15px;text-align:center;position:absolute;left:50%;top:55%;transform:translate(-50%,-50%);width:90%;">
+    <span class="w3-jumbo w3-wide w3-hide-small" style="line-height:90px;"><u>Join Kendo Club</u></span><br>
+    <span class="w3-wide w3-hide-medium w3-hide-large" style="font-size:40px;"><u>Join Kendo Club</u></span><br>
 </header>
 
 <div class="w3-container" style="padding:100px 15px">
@@ -73,7 +74,7 @@ body, html {
     <div class="w3-col m6" style="display:inline-block; float:none !important; text-align:left; vertical-align:middle;">
       <h2>Practice Schedule</h2>
       <p><h4>
-          Practices are held every Saturday from 12:00 PM to 2:00 PM in the UCSD Rec Gym. Registration is handled through the UCSD Recreation department on a per-quarter basis; please register through the signup links below.
+          Practice is held every Saturday from 12:00 PM to 2:00 PM in the UCSD Rec Gym. Registration is handled through the UCSD Recreation department on a per-quarter basis; please register through the signup links below.
       </h4></p>
       <div style="text-align:center">
         <a href="https://rec.ucsd.edu/Program/GetProgramDetails?courseId=911a0897-60c1-4faa-a610-f205678c92fa&semesterId=5abd8195-4a5a-4719-9c46-a83937f2c094"><button class="w3-button w3-black w3-padding-large" style="border-radius:6px;">Spring 2023 Beginner Registration</button></a>
@@ -97,33 +98,35 @@ body, html {
   </div>
 </div>
 <br>
-<div class="w3-container" style="width:60%;margin:auto;padding:0px 0px 100px;">
-  <div class="w3-row-padding">
-    <h1 id="faq" style="text-align:center;">Beginner FAQ</h1>
+<div class="w3-container" style="padding:0px 15px 100px;">
+  <div style="text-align:center;">
+    <h1 id="faq">Beginner FAQ</h1>
 
-    <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px;">What is Kendo?</button>
-    <div class="panel">
-      <h4>Kendo (translating to "way of the sword") is a modern Japanese martial art descended from the samurai swordsmanship of feudal Japan. In kendo, we practice with bamboo swords <i>(shinai)</i> and protective armor <i>(bogu)</i> which allow for full delivery of strikes without injury. Kendo is used by many as a way to cultivate a strong mind, body, and spirit through the application of the principles of the sword.</h4>
-    </div>
+    <div style="display:inline-block;float:none !important; max-width:1000px; text-align:left;">
+      <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px;">What is Kendo?</button>
+      <div class="panel">
+        <h4>Kendo (translating to "way of the sword") is a modern Japanese martial art descended from the samurai swordsmanship of feudal Japan. In kendo, we practice with bamboo swords <i>(shinai)</i> and protective armor <i>(bogu)</i> which allow for full delivery of strikes without injury. Kendo is used by many as a way to cultivate a strong mind, body, and spirit through the application of the principles of the sword.</h4>
+      </div>
 
-    <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px">Can I join without any prior experience?</button>
-    <div class="panel">
-      <h4>Of course! We welcome all skill levels to join practice. The vast majority of our club members started kendo for the first time through the UCSD Kendo Club.</h4>
-    </div>
+      <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px">Can I join without any prior experience?</button>
+      <div class="panel">
+        <h4>Of course! We welcome all skill levels to join practice. The vast majority of our club members started kendo for the first time through the UCSD Kendo Club.</h4>
+      </div>
 
-    <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px">What do I need to bring to my first practice?</button>
-    <div class="panel">
-      <h4>You will need to bring $30 (Venmo preferred) to your first practice to purchase your own shinai (bamboo sword). Try to show up early, as shinai purchase lines can get pretty long. Besides that, just show up in comfortable clothes that you can move in, and bring a water bottle if you need it. Purchase of uniform and armor will not be necessary for a while.</h4>
-    </div>
+      <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px">What do I need to bring to my first practice?</button>
+      <div class="panel">
+        <h4>You will need to bring $30 (Venmo preferred) to your first practice to purchase your own shinai (bamboo sword). Try to show up early, as shinai purchase lines can get pretty long. Besides that, just show up in comfortable clothes that you can move in, and bring a water bottle if you need it. Purchase of uniform and armor will not be necessary for a while.</h4>
+      </div>
 
-    <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px">What will I be doing on my first day?</button>
-    <div class="panel">
-      <h4>On your first day, you can expect to learn basic footwork, swings, and strikes. You'll also learn basic striking routines <i>(kirikaeshi)</i>, where you practice hitting senior students who are wearing armor.</h4>
-    </div>
+      <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px">What will I be doing on my first day?</button>
+      <div class="panel">
+        <h4>On your first day, you can expect to learn basic footwork, swings, and strikes. You'll also learn basic striking routines <i>(kirikaeshi)</i>, where you practice hitting senior students who are wearing armor.</h4>
+      </div>
 
-    <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px">Do I need to buy the uniform/armor?</button>
-    <div class="panel">
-      <h4>You won't need to purchase the uniform <i>(gi and hakama)</i> or armor <i>(bogu)</i> for a while after starting. You'll spend the next few practices honing your basics, after which the senseis (head teachers) will decide if you are ready to move on to practicing in gi and hakama and/or bogu.</h4>
+      <button class="accordion" style="border-radius:12px; font-size:20px; padding-left:30px">Do I need to buy the uniform/armor?</button>
+      <div class="panel">
+        <h4>You won't need to purchase the uniform <i>(gi and hakama)</i> or armor <i>(bogu)</i> for a while after starting. You'll spend the next few practices honing your basics, after which the senseis (head teachers) will decide if you are ready to move on to practicing in gi and hakama and/or bogu.</h4>
+      </div>
     </div>
   </div>
 </div>
